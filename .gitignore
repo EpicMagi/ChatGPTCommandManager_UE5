@@ -1,0 +1,53 @@
+# Unreal Engine 5
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.sln
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.log
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.ipch
+*.cache
+*.obj
+*.exe
+*.dll
+*.app
+*.dSYM
+*.xcworkspace
+*.xcodeproj
+*.xcuserdata
+*.xcscheme
+*.DS_Store
+*.apk
+*.ipa
+*.target
+*.vcxproj*
+*.xcodeproj/*
+*.sln*
+Build/
+
+# Unreal Plugin stuff
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Exclude generated folders
+*.generated.*
+*.generated.cpp
+*.generated.h
+*.generated.*
+
+# GitHub settings
+.idea/
+.gitignore
+.gitattributes
