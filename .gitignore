@@ -1,53 +1,64 @@
-# Unreal Engine 5
+# ---------------------------------------
+# Unreal Engine 5 Git Ignore
+# ---------------------------------------
+
+# Engine-specific folders
 Binaries/
+Build/
 DerivedDataCache/
 Intermediate/
 Saved/
+
+# IDE/project-specific
 .vscode/
 .vs/
+.idea/
 *.sln
 *.opensdf
 *.sdf
 *.VC.db
 *.VC.opendb
-*.log
-*.pdb
 *.suo
 *.user
 *.userosscache
-*.sdf
 *.ipch
-*.cache
+
+# Build outputs
 *.obj
 *.exe
 *.dll
 *.app
+*.pdb
+*.cache
+*.target
+*.log
+
+# Platform-specific
+*.apk
+*.ipa
 *.dSYM
+
+# Xcode
 *.xcworkspace
 *.xcodeproj
 *.xcuserdata
 *.xcscheme
-*.DS_Store
-*.apk
-*.ipa
-*.target
-*.vcxproj*
-*.xcodeproj/*
-*.sln*
-Build/
 
-# Unreal Plugin stuff
+# macOS/Windows generated
+*.DS_Store
+Thumbs.db
+
+# Unreal generated code
+*.generated.*
+*.generated.cpp
+*.generated.h
+
+# Plugins
 Plugins/*/Binaries/
 Plugins/*/Intermediate/
 Plugins/*/Saved/
 
-# Exclude generated folders
-*.generated.*
-*.generated.cpp
-*.generated.h
-*.generated.*
-
-# GitHub settings
-.idea/
-.gitignore
+# Git internals
+# DO NOT IGNORE THIS .gitignore FILE
+!.gitignore
 .gitattributes
